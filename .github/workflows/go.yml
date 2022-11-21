@@ -26,3 +26,4 @@ jobs:
 
     - name: Test
       run: go run ./.github/workflows/ejercicio1.go
+      run: 4
