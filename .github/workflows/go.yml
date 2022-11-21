@@ -25,5 +25,5 @@ jobs:
       run: go build ./.github/workflows/ejercicio1.go
 
     - name: Test
-      run: go run ./.github/workflows/ejercicio1.go
-      run: echo "4"
+    -  run: go run ./.github/workflows/ejercicio1.go 
+    -  run: pwd
