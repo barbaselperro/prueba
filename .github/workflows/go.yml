@@ -25,4 +25,4 @@ jobs:
       run: go build ./.github/workflows/ejercicio1.go
 
     - name: Test
-      run: go test -v ./...
+      run: go run ./.github/workflows/ejercicio1.go
